@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CreatorGuide Agent</title>
+<style>
+  :root { --bg:#0f1115; --card:#181b22; --line:#2a2f3a; --text:#e8eaf0; --muted:#9aa3b2; --accent:#ff4e45; --ok:#3ecf8e; --warn:#f5a524; }
+  @media (prefers-color-scheme: light) { :root { --bg:#f6f7f9; --card:#fff; --line:#dde1e8; --text:#1b1f27; --muted:#5b6575; } }
+  * { box-sizing: border-box; }
+  body { margin:0; font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; background:var(--bg); color:var(--text); }
+  main { max-width: 820px; margin: 0 auto; padding: 28px 16px 64px; }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; } .sub { color: var(--muted); margin: 0 0 20px; }
+  form { display:flex; gap:8px; flex-wrap:wrap; }
+  input[type=text] { flex:1 1 320px; padding:12px 14px; border-radius:10px; border:1px solid var(--line); background:var(--card); color:var(--text); font-size:1rem; }
+  select, button { padding:12px 14px; border-radius:10px; border:1px solid var(--line); background:var(--card); color:var(--text); font-size:1rem; }
+  button.primary { background:var(--accent); border-color:var(--accent); color:#fff; font-weight:600; cursor:pointer; }
+  button:disabled { opacity:.5; cursor:wait; }
+  .examples { margin:10px 0 0; display:flex; gap:8px; flex-wrap:wrap; }
+  .examples button { font-size:.85rem; padding:6px 10px; cursor:pointer; color:var(--muted); }
+  #steps { margin-top:22px; display:flex; flex-direction:column; gap:8px; }
+  .step { background:var(--card); border:1px solid var(--line); border-left:4px solid var(--muted); border-radius:8px; padding:8px 12px; font-size:.9rem; overflow-wrap:anywhere; }
+  .step.call { border-left-color: var(--accent); } .step.result.ok { border-left-color: var(--ok); } .step.result.bad { border-left-color: var(--warn); }
+  .step .k { font-weight:600; } .step code { color:var(--muted); font-size:.82rem; }
+  #answer { margin-top:18px; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; display:none; }
+  .badge { display:inline-block; font-size:.75rem; font-weight:700; padding:2px 8px; border-radius:99px; margin-bottom:8px; }
+  .badge.yes { background:rgba(62,207,142,.15); color:var(--ok); } .badge.no { background:rgba(245,165,36,.15); color:var(--warn); }
+  #answer p { margin:.2rem 0 .8rem; white-space:pre-wrap; } #sources a { color:var(--accent); } #sources li { margin:2px 0; }
+  .meta { color:var(--muted); font-size:.8rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>CreatorGuide Agent</h1>
+  <p class="sub">Ask about YouTube policies, strikes, appeals and monetization. Answers cite the Help articles they come from.</p>
+  <form id="f">
+    <input id="q" type="text" maxlength="600" placeholder="e.g. How long do I have to appeal a strike?" required autofocus>
+    <select id="mode" aria-label="mode"><option value="agent">Agent (tools)</option><option value="rag">Single-shot RAG</option></select>
+    <button class="primary" id="go" type="submit">Ask</button>
+  </form>
+  <div class="examples" id="examples"></div>
+  <div id="steps" aria-live="polite"></div>
+  <section id="answer"><span class="badge" id="badge"></span><p id="text"></p><ul id="sources"></ul><div class="meta" id="meta"></div></section>
+</main>
+<script>
+const $ = (id) => document.getElementById(id);
+const EXAMPLES = [
+  "How long do I have to appeal a Community Guidelines strike?",
+  "I have 650 subscribers and 3,200 watch hours. How many more of each do I need for the Partner Program?",
+  "Can I start a new channel after mine was terminated?",
+  "How much does YouTube Premium cost per month in Thailand?"
+];
+for (const text of EXAMPLES) {
+  const b = document.createElement("button"); b.type = "button"; b.textContent = text.length > 52 ? text.slice(0, 50) + "…" : text;
+  b.title = text; b.onclick = () => { $("q").value = text; $("f").requestSubmit(); }; $("examples").appendChild(b);
+}
+let source = null;
+function addStep(cls, label, detail) {
+  const d = document.createElement("div"); d.className = "step " + cls;
+  const k = document.createElement("span"); k.className = "k"; k.textContent = label + " ";
+  const c = document.createElement("code"); c.textContent = detail || "";
+  d.append(k, c); $("steps").appendChild(d);
+}
+function safeLink(url) { return typeof url === "string" && url.startsWith("https://support.google.com/") ? url : null; }
+function finish() { if (source) { source.close(); source = null; } $("go").disabled = false; }
+$("f").addEventListener("submit", (e) => {
+  e.preventDefault(); finish();
+  $("steps").replaceChildren(); $("answer").style.display = "none"; $("go").disabled = true;
+  const url = "/api/ask/stream?" + new URLSearchParams({ q: $("q").value.trim(), mode: $("mode").value });
+  source = new EventSource(url);
+  source.addEventListener("tool_call", (ev) => { const d = JSON.parse(ev.data); addStep("call", "→ " + d.name, JSON.stringify(d.args)); });
+  source.addEventListener("tool_result", (ev) => { const d = JSON.parse(ev.data); addStep("result " + (d.ok ? "ok" : "bad"), d.ok ? "← result" : "← error", d.preview); });
+  source.addEventListener("note", (ev) => addStep("note", "note", JSON.parse(ev.data).message));
+  source.addEventListener("error", (ev) => { if (ev.data) { addStep("result bad", "error", JSON.parse(ev.data).message); finish(); } });
+  source.addEventListener("final", (ev) => {
+    const d = JSON.parse(ev.data);
+    $("badge").className = "badge " + (d.answerable ? "yes" : "no"); $("badge").textContent = d.answerable ? "ANSWER FROM ARTICLES" : "NOT IN THE ARTICLES";
+    $("text").textContent = d.answer; $("sources").replaceChildren();
+    for (const s of d.sources || []) {
+      const li = document.createElement("li"), href = safeLink(s.url);
+      if (href) { const a = document.createElement("a"); a.href = href; a.target = "_blank"; a.rel = "noopener"; a.textContent = s.title; li.append(a, " (" + s.id + ")"); }
+      else li.textContent = s.title + " (" + s.id + ")";
+      $("sources").appendChild(li);
+    }
+    const u = d.usage || {};
+    $("meta").textContent = `stop: ${d.stop_reason} · tool calls: ${d.tool_calls} · LLM calls: ${u.llm_calls || 0} · mode: ${d.mode || "single-shot"}`;
+    $("answer").style.display = "block";
+  });
+  source.addEventListener("done", finish);
+  source.onerror = () => { if (source && source.readyState === EventSource.CLOSED) finish(); };
+});
+</script>
+</body>
+</html>

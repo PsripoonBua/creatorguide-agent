@@ -1,0 +1,24 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "device": "cpu",
+  "source_file": "data/docs.jsonl",
+  "source_sha256": "71ef16638f0b6f683e865df71f5c46503aa6a03a405e0cf560265fd23a8e58c7",
+  "documents": 62,
+  "chunks": 686,
+  "dimensions": 384,
+  "chunk_tokens": 224,
+  "overlap_tokens": 32,
+  "embedding_normalization": "L2",
+  "scoring": "dot product (cosine for L2-normalized vectors)",
+  "format_version": 2,
+  "row_alignment": "row_index 0..chunks-1 and chunk_id match across chunks.jsonl, chunks.csv, embeddings.npy, and embeddings.csv",
+  "files": {
+    "chunks.jsonl": "Canonical UTF-8 chunk records, one JSON object per line",
+    "chunks.csv": "Readable UTF-8 CSV copy of all chunks, including full text",
+    "embeddings.npy": "Canonical float32 matrix for fast retrieval",
+    "embeddings.csv": "Readable CSV copy; row_index and chunk_id precede dimensions",
+    "manifest.json": "Machine-readable index metadata",
+    "manifest.md": "Human-readable index metadata and handoff instructions"
+  }
+}
