@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "created_utc": "2026-11-03T11:45:10+00:00",
+    "questions_sha256": "63523a4a7849c7bcf07b4070dd3936f10786e6f45ef2b63ac2ce65007903be4b",
+    "corpus_sha256": "71ef16638f0b6f683e865df71f5c46503aa6a03a405e0cf560265fd23a8e58c7",
+    "retriever": "bm25+stopwords"
+  },
+  "results": {
+    "committed_224_token_index": {
+      "n_chunks": 686,
+      "hit@1": 0.88,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "recall@3": 0.94,
+      "recall@5": 0.98,
+      "mrr@10": 0.9333
+    },
+    "words-60": {
+      "n_chunks": 1650,
+      "hit@1": 0.84,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "recall@3": 0.96,
+      "recall@5": 0.98,
+      "mrr@10": 0.9067
+    },
+    "words-100": {
+      "n_chunks": 1035,
+      "hit@1": 0.92,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "recall@3": 0.96,
+      "recall@5": 0.98,
+      "mrr@10": 0.9467
+    },
+    "words-150": {
+      "n_chunks": 726,
+      "hit@1": 0.88,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "recall@3": 0.96,
+      "recall@5": 0.98,
+      "mrr@10": 0.94
+    },
+    "words-250": {
+      "n_chunks": 554,
+      "hit@1": 0.88,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "recall@3": 0.92,
+      "recall@5": 0.98,
+      "mrr@10": 0.9267
+    },
+    "words-400": {
+      "n_chunks": 473,
+      "hit@1": 0.88,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "recall@3": 0.94,
+      "recall@5": 0.98,
+      "mrr@10": 0.9267
+    },
+    "sections": {
+      "n_chunks": 436,
+      "hit@1": 0.88,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "recall@3": 0.94,
+      "recall@5": 0.98,
+      "mrr@10": 0.9267
+    }
+  }
+}

@@ -1,0 +1,986 @@
+{
+  "meta": {
+    "created_utc": "2026-11-03T11:45:03+00:00",
+    "questions_sha256": "63523a4a7849c7bcf07b4070dd3936f10786e6f45ef2b63ac2ce65007903be4b",
+    "corpus_sha256": "71ef16638f0b6f683e865df71f5c46503aa6a03a405e0cf560265fd23a8e58c7"
+  },
+  "results": {
+    "bm25": {
+      "gate_key": "bm25_score",
+      "table": [
+        {
+          "threshold": 0.0,
+          "tpr_answerable_kept": 1.0,
+          "tnr_unanswerable_rejected": 0.0,
+          "balanced_accuracy": 0.5
+        },
+        {
+          "threshold": 11.8769,
+          "tpr_answerable_kept": 1.0,
+          "tnr_unanswerable_rejected": 0.0,
+          "balanced_accuracy": 0.5
+        },
+        {
+          "threshold": 12.5698,
+          "tpr_answerable_kept": 1.0,
+          "tnr_unanswerable_rejected": 0.2,
+          "balanced_accuracy": 0.6
+        },
+        {
+          "threshold": 13.5022,
+          "tpr_answerable_kept": 0.96,
+          "tnr_unanswerable_rejected": 0.2,
+          "balanced_accuracy": 0.58
+        },
+        {
+          "threshold": 14.4527,
+          "tpr_answerable_kept": 0.96,
+          "tnr_unanswerable_rejected": 0.4,
+          "balanced_accuracy": 0.68
+        },
+        {
+          "threshold": 14.8536,
+          "tpr_answerable_kept": 0.92,
+          "tnr_unanswerable_rejected": 0.4,
+          "balanced_accuracy": 0.66
+        },
+        {
+          "threshold": 14.8918,
+          "tpr_answerable_kept": 0.88,
+          "tnr_unanswerable_rejected": 0.4,
+          "balanced_accuracy": 0.64
+        },
+        {
+          "threshold": 15.186,
+          "tpr_answerable_kept": 0.84,
+          "tnr_unanswerable_rejected": 0.4,
+          "balanced_accuracy": 0.62
+        },
+        {
+          "threshold": 15.9796,
+          "tpr_answerable_kept": 0.8,
+          "tnr_unanswerable_rejected": 0.4,
+          "balanced_accuracy": 0.6
+        },
+        {
+          "threshold": 17.0816,
+          "tpr_answerable_kept": 0.76,
+          "tnr_unanswerable_rejected": 0.4,
+          "balanced_accuracy": 0.58
+        },
+        {
+          "threshold": 17.1272,
+          "tpr_answerable_kept": 0.72,
+          "tnr_unanswerable_rejected": 0.4,
+          "balanced_accuracy": 0.56
+        },
+        {
+          "threshold": 19.1093,
+          "tpr_answerable_kept": 0.68,
+          "tnr_unanswerable_rejected": 0.4,
+          "balanced_accuracy": 0.54
+        },
+        {
+          "threshold": 20.2215,
+          "tpr_answerable_kept": 0.64,
+          "tnr_unanswerable_rejected": 0.4,
+          "balanced_accuracy": 0.52
+        },
+        {
+          "threshold": 20.3934,
+          "tpr_answerable_kept": 0.64,
+          "tnr_unanswerable_rejected": 0.6,
+          "balanced_accuracy": 0.62
+        },
+        {
+          "threshold": 20.4157,
+          "tpr_answerable_kept": 0.6,
+          "tnr_unanswerable_rejected": 0.6,
+          "balanced_accuracy": 0.6
+        },
+        {
+          "threshold": 20.7886,
+          "tpr_answerable_kept": 0.56,
+          "tnr_unanswerable_rejected": 0.6,
+          "balanced_accuracy": 0.58
+        },
+        {
+          "threshold": 21.0737,
+          "tpr_answerable_kept": 0.52,
+          "tnr_unanswerable_rejected": 0.6,
+          "balanced_accuracy": 0.56
+        },
+        {
+          "threshold": 21.4951,
+          "tpr_answerable_kept": 0.52,
+          "tnr_unanswerable_rejected": 0.8,
+          "balanced_accuracy": 0.66
+        },
+        {
+          "threshold": 23.3471,
+          "tpr_answerable_kept": 0.48,
+          "tnr_unanswerable_rejected": 0.8,
+          "balanced_accuracy": 0.64
+        },
+        {
+          "threshold": 24.2397,
+          "tpr_answerable_kept": 0.44,
+          "tnr_unanswerable_rejected": 0.8,
+          "balanced_accuracy": 0.62
+        },
+        {
+          "threshold": 24.7091,
+          "tpr_answerable_kept": 0.4,
+          "tnr_unanswerable_rejected": 0.8,
+          "balanced_accuracy": 0.6
+        },
+        {
+          "threshold": 25.4972,
+          "tpr_answerable_kept": 0.4,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.7
+        },
+        {
+          "threshold": 25.506,
+          "tpr_answerable_kept": 0.36,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.68
+        },
+        {
+          "threshold": 27.2161,
+          "tpr_answerable_kept": 0.32,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.66
+        },
+        {
+          "threshold": 27.4788,
+          "tpr_answerable_kept": 0.28,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.64
+        },
+        {
+          "threshold": 32.9707,
+          "tpr_answerable_kept": 0.24,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.62
+        },
+        {
+          "threshold": 34.7412,
+          "tpr_answerable_kept": 0.2,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.6
+        },
+        {
+          "threshold": 37.3591,
+          "tpr_answerable_kept": 0.16,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.58
+        },
+        {
+          "threshold": 39.7236,
+          "tpr_answerable_kept": 0.12,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.56
+        },
+        {
+          "threshold": 45.4112,
+          "tpr_answerable_kept": 0.08,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.54
+        },
+        {
+          "threshold": 47.8535,
+          "tpr_answerable_kept": 0.04,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.52
+        }
+      ],
+      "best": {
+        "threshold": 14.4527,
+        "tpr_answerable_kept": 0.96,
+        "tnr_unanswerable_rejected": 0.4,
+        "balanced_accuracy": 0.68
+      },
+      "best_balanced": {
+        "threshold": 25.4972,
+        "tpr_answerable_kept": 0.4,
+        "tnr_unanswerable_rejected": 1.0,
+        "balanced_accuracy": 0.7
+      },
+      "no_gate": {
+        "threshold": 0.0,
+        "tpr_answerable_kept": 1.0,
+        "tnr_unanswerable_rejected": 0.0,
+        "balanced_accuracy": 0.5
+      },
+      "min_tpr": 0.9,
+      "answerable_scores": [
+        12.5698,
+        14.4527,
+        14.8536,
+        14.8918,
+        15.186,
+        15.9796,
+        17.0816,
+        17.1272,
+        19.1093,
+        20.3934,
+        20.4157,
+        20.7886,
+        21.4951,
+        23.3471,
+        24.2397,
+        25.4972,
+        25.506,
+        27.2161,
+        27.4788,
+        32.9707,
+        34.7412,
+        37.3591,
+        39.7236,
+        45.4112,
+        47.8535
+      ],
+      "unanswerable_scores": [
+        11.8769,
+        13.5022,
+        20.2215,
+        21.0737,
+        24.7091
+      ]
+    },
+    "bm25_stopwords": {
+      "gate_key": "bm25_score",
+      "table": [
+        {
+          "threshold": 0.0,
+          "tpr_answerable_kept": 1.0,
+          "tnr_unanswerable_rejected": 0.0,
+          "balanced_accuracy": 0.5
+        },
+        {
+          "threshold": 9.5085,
+          "tpr_answerable_kept": 1.0,
+          "tnr_unanswerable_rejected": 0.0,
+          "balanced_accuracy": 0.5
+        },
+        {
+          "threshold": 10.2804,
+          "tpr_answerable_kept": 0.96,
+          "tnr_unanswerable_rejected": 0.0,
+          "balanced_accuracy": 0.48
+        },
+        {
+          "threshold": 12.0718,
+          "tpr_answerable_kept": 0.96,
+          "tnr_unanswerable_rejected": 0.2,
+          "balanced_accuracy": 0.58
+        },
+        {
+          "threshold": 12.3857,
+          "tpr_answerable_kept": 0.96,
+          "tnr_unanswerable_rejected": 0.4,
+          "balanced_accuracy": 0.68
+        },
+        {
+          "threshold": 12.736,
+          "tpr_answerable_kept": 0.92,
+          "tnr_unanswerable_rejected": 0.4,
+          "balanced_accuracy": 0.66
+        },
+        {
+          "threshold": 13.6395,
+          "tpr_answerable_kept": 0.88,
+          "tnr_unanswerable_rejected": 0.4,
+          "balanced_accuracy": 0.64
+        },
+        {
+          "threshold": 14.3071,
+          "tpr_answerable_kept": 0.84,
+          "tnr_unanswerable_rejected": 0.4,
+          "balanced_accuracy": 0.62
+        },
+        {
+          "threshold": 14.4019,
+          "tpr_answerable_kept": 0.8,
+          "tnr_unanswerable_rejected": 0.4,
+          "balanced_accuracy": 0.6
+        },
+        {
+          "threshold": 15.1575,
+          "tpr_answerable_kept": 0.76,
+          "tnr_unanswerable_rejected": 0.4,
+          "balanced_accuracy": 0.58
+        },
+        {
+          "threshold": 15.5063,
+          "tpr_answerable_kept": 0.72,
+          "tnr_unanswerable_rejected": 0.4,
+          "balanced_accuracy": 0.56
+        },
+        {
+          "threshold": 16.4979,
+          "tpr_answerable_kept": 0.68,
+          "tnr_unanswerable_rejected": 0.4,
+          "balanced_accuracy": 0.54
+        },
+        {
+          "threshold": 16.5239,
+          "tpr_answerable_kept": 0.68,
+          "tnr_unanswerable_rejected": 0.6,
+          "balanced_accuracy": 0.64
+        },
+        {
+          "threshold": 16.7409,
+          "tpr_answerable_kept": 0.64,
+          "tnr_unanswerable_rejected": 0.6,
+          "balanced_accuracy": 0.62
+        },
+        {
+          "threshold": 16.8583,
+          "tpr_answerable_kept": 0.64,
+          "tnr_unanswerable_rejected": 0.8,
+          "balanced_accuracy": 0.72
+        },
+        {
+          "threshold": 17.7007,
+          "tpr_answerable_kept": 0.6,
+          "tnr_unanswerable_rejected": 0.8,
+          "balanced_accuracy": 0.7
+        },
+        {
+          "threshold": 17.9391,
+          "tpr_answerable_kept": 0.56,
+          "tnr_unanswerable_rejected": 0.8,
+          "balanced_accuracy": 0.68
+        },
+        {
+          "threshold": 18.3034,
+          "tpr_answerable_kept": 0.52,
+          "tnr_unanswerable_rejected": 0.8,
+          "balanced_accuracy": 0.66
+        },
+        {
+          "threshold": 18.4244,
+          "tpr_answerable_kept": 0.48,
+          "tnr_unanswerable_rejected": 0.8,
+          "balanced_accuracy": 0.64
+        },
+        {
+          "threshold": 19.8306,
+          "tpr_answerable_kept": 0.44,
+          "tnr_unanswerable_rejected": 0.8,
+          "balanced_accuracy": 0.62
+        },
+        {
+          "threshold": 20.6996,
+          "tpr_answerable_kept": 0.4,
+          "tnr_unanswerable_rejected": 0.8,
+          "balanced_accuracy": 0.6
+        },
+        {
+          "threshold": 21.2894,
+          "tpr_answerable_kept": 0.36,
+          "tnr_unanswerable_rejected": 0.8,
+          "balanced_accuracy": 0.58
+        },
+        {
+          "threshold": 23.4247,
+          "tpr_answerable_kept": 0.32,
+          "tnr_unanswerable_rejected": 0.8,
+          "balanced_accuracy": 0.56
+        },
+        {
+          "threshold": 23.69,
+          "tpr_answerable_kept": 0.28,
+          "tnr_unanswerable_rejected": 0.8,
+          "balanced_accuracy": 0.54
+        },
+        {
+          "threshold": 24.6826,
+          "tpr_answerable_kept": 0.28,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.64
+        },
+        {
+          "threshold": 25.417,
+          "tpr_answerable_kept": 0.24,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.62
+        },
+        {
+          "threshold": 29.9551,
+          "tpr_answerable_kept": 0.2,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.6
+        },
+        {
+          "threshold": 31.2522,
+          "tpr_answerable_kept": 0.16,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.58
+        },
+        {
+          "threshold": 36.9047,
+          "tpr_answerable_kept": 0.12,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.56
+        },
+        {
+          "threshold": 42.6964,
+          "tpr_answerable_kept": 0.08,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.54
+        },
+        {
+          "threshold": 44.8512,
+          "tpr_answerable_kept": 0.04,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.52
+        }
+      ],
+      "best": {
+        "threshold": 12.3857,
+        "tpr_answerable_kept": 0.96,
+        "tnr_unanswerable_rejected": 0.4,
+        "balanced_accuracy": 0.68
+      },
+      "best_balanced": {
+        "threshold": 16.8583,
+        "tpr_answerable_kept": 0.64,
+        "tnr_unanswerable_rejected": 0.8,
+        "balanced_accuracy": 0.72
+      },
+      "no_gate": {
+        "threshold": 0.0,
+        "tpr_answerable_kept": 1.0,
+        "tnr_unanswerable_rejected": 0.0,
+        "balanced_accuracy": 0.5
+      },
+      "min_tpr": 0.9,
+      "answerable_scores": [
+        9.5085,
+        12.3857,
+        12.736,
+        13.6395,
+        14.3071,
+        14.4019,
+        15.1575,
+        15.5063,
+        16.5239,
+        16.8583,
+        17.7007,
+        17.9391,
+        18.3034,
+        18.4244,
+        19.8306,
+        20.6996,
+        21.2894,
+        23.4247,
+        24.6826,
+        25.417,
+        29.9551,
+        31.2522,
+        36.9047,
+        42.6964,
+        44.8512
+      ],
+      "unanswerable_scores": [
+        10.2804,
+        12.0718,
+        16.4979,
+        16.7409,
+        23.69
+      ]
+    },
+    "dense": {
+      "gate_key": "dense_score",
+      "table": [
+        {
+          "threshold": 0.0,
+          "tpr_answerable_kept": 1.0,
+          "tnr_unanswerable_rejected": 0.0,
+          "balanced_accuracy": 0.5
+        },
+        {
+          "threshold": 0.2305,
+          "tpr_answerable_kept": 1.0,
+          "tnr_unanswerable_rejected": 0.0,
+          "balanced_accuracy": 0.5
+        },
+        {
+          "threshold": 0.4045,
+          "tpr_answerable_kept": 1.0,
+          "tnr_unanswerable_rejected": 0.2,
+          "balanced_accuracy": 0.6
+        },
+        {
+          "threshold": 0.435,
+          "tpr_answerable_kept": 1.0,
+          "tnr_unanswerable_rejected": 0.4,
+          "balanced_accuracy": 0.7
+        },
+        {
+          "threshold": 0.4371,
+          "tpr_answerable_kept": 1.0,
+          "tnr_unanswerable_rejected": 0.6,
+          "balanced_accuracy": 0.8
+        },
+        {
+          "threshold": 0.4966,
+          "tpr_answerable_kept": 1.0,
+          "tnr_unanswerable_rejected": 0.8,
+          "balanced_accuracy": 0.9
+        },
+        {
+          "threshold": 0.5162,
+          "tpr_answerable_kept": 0.96,
+          "tnr_unanswerable_rejected": 0.8,
+          "balanced_accuracy": 0.88
+        },
+        {
+          "threshold": 0.5182,
+          "tpr_answerable_kept": 0.92,
+          "tnr_unanswerable_rejected": 0.8,
+          "balanced_accuracy": 0.86
+        },
+        {
+          "threshold": 0.5233,
+          "tpr_answerable_kept": 0.92,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.96
+        },
+        {
+          "threshold": 0.5476,
+          "tpr_answerable_kept": 0.88,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.94
+        },
+        {
+          "threshold": 0.5682,
+          "tpr_answerable_kept": 0.84,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.92
+        },
+        {
+          "threshold": 0.5918,
+          "tpr_answerable_kept": 0.8,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.9
+        },
+        {
+          "threshold": 0.6088,
+          "tpr_answerable_kept": 0.76,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.88
+        },
+        {
+          "threshold": 0.6131,
+          "tpr_answerable_kept": 0.72,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.86
+        },
+        {
+          "threshold": 0.6294,
+          "tpr_answerable_kept": 0.68,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.84
+        },
+        {
+          "threshold": 0.6485,
+          "tpr_answerable_kept": 0.64,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.82
+        },
+        {
+          "threshold": 0.6646,
+          "tpr_answerable_kept": 0.6,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.8
+        },
+        {
+          "threshold": 0.6715,
+          "tpr_answerable_kept": 0.56,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.78
+        },
+        {
+          "threshold": 0.6727,
+          "tpr_answerable_kept": 0.52,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.76
+        },
+        {
+          "threshold": 0.6737,
+          "tpr_answerable_kept": 0.48,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.74
+        },
+        {
+          "threshold": 0.6782,
+          "tpr_answerable_kept": 0.44,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.72
+        },
+        {
+          "threshold": 0.6834,
+          "tpr_answerable_kept": 0.4,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.7
+        },
+        {
+          "threshold": 0.6978,
+          "tpr_answerable_kept": 0.36,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.68
+        },
+        {
+          "threshold": 0.7058,
+          "tpr_answerable_kept": 0.32,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.66
+        },
+        {
+          "threshold": 0.7324,
+          "tpr_answerable_kept": 0.28,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.64
+        },
+        {
+          "threshold": 0.7383,
+          "tpr_answerable_kept": 0.24,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.62
+        },
+        {
+          "threshold": 0.7576,
+          "tpr_answerable_kept": 0.2,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.6
+        },
+        {
+          "threshold": 0.7578,
+          "tpr_answerable_kept": 0.16,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.58
+        },
+        {
+          "threshold": 0.7592,
+          "tpr_answerable_kept": 0.12,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.56
+        },
+        {
+          "threshold": 0.8199,
+          "tpr_answerable_kept": 0.08,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.54
+        },
+        {
+          "threshold": 0.8444,
+          "tpr_answerable_kept": 0.04,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.52
+        }
+      ],
+      "best": {
+        "threshold": 0.5233,
+        "tpr_answerable_kept": 0.92,
+        "tnr_unanswerable_rejected": 1.0,
+        "balanced_accuracy": 0.96
+      },
+      "best_balanced": {
+        "threshold": 0.5233,
+        "tpr_answerable_kept": 0.92,
+        "tnr_unanswerable_rejected": 1.0,
+        "balanced_accuracy": 0.96
+      },
+      "no_gate": {
+        "threshold": 0.0,
+        "tpr_answerable_kept": 1.0,
+        "tnr_unanswerable_rejected": 0.0,
+        "balanced_accuracy": 0.5
+      },
+      "min_tpr": 0.9,
+      "answerable_scores": [
+        0.4966,
+        0.5162,
+        0.5233,
+        0.5476,
+        0.5682,
+        0.5918,
+        0.6088,
+        0.6131,
+        0.6294,
+        0.6485,
+        0.6646,
+        0.6715,
+        0.6727,
+        0.6737,
+        0.6782,
+        0.6834,
+        0.6978,
+        0.7058,
+        0.7324,
+        0.7383,
+        0.7576,
+        0.7578,
+        0.7592,
+        0.8199,
+        0.8444
+      ],
+      "unanswerable_scores": [
+        0.2305,
+        0.4045,
+        0.435,
+        0.4371,
+        0.5182
+      ]
+    },
+    "hybrid": {
+      "gate_key": "dense_score",
+      "table": [
+        {
+          "threshold": 0.0,
+          "tpr_answerable_kept": 1.0,
+          "tnr_unanswerable_rejected": 0.0,
+          "balanced_accuracy": 0.5
+        },
+        {
+          "threshold": 0.225,
+          "tpr_answerable_kept": 1.0,
+          "tnr_unanswerable_rejected": 0.0,
+          "balanced_accuracy": 0.5
+        },
+        {
+          "threshold": 0.4045,
+          "tpr_answerable_kept": 1.0,
+          "tnr_unanswerable_rejected": 0.2,
+          "balanced_accuracy": 0.6
+        },
+        {
+          "threshold": 0.4343,
+          "tpr_answerable_kept": 1.0,
+          "tnr_unanswerable_rejected": 0.4,
+          "balanced_accuracy": 0.7
+        },
+        {
+          "threshold": 0.4371,
+          "tpr_answerable_kept": 1.0,
+          "tnr_unanswerable_rejected": 0.6,
+          "balanced_accuracy": 0.8
+        },
+        {
+          "threshold": 0.4966,
+          "tpr_answerable_kept": 1.0,
+          "tnr_unanswerable_rejected": 0.8,
+          "balanced_accuracy": 0.9
+        },
+        {
+          "threshold": 0.5162,
+          "tpr_answerable_kept": 0.96,
+          "tnr_unanswerable_rejected": 0.8,
+          "balanced_accuracy": 0.88
+        },
+        {
+          "threshold": 0.5182,
+          "tpr_answerable_kept": 0.92,
+          "tnr_unanswerable_rejected": 0.8,
+          "balanced_accuracy": 0.86
+        },
+        {
+          "threshold": 0.5233,
+          "tpr_answerable_kept": 0.92,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.96
+        },
+        {
+          "threshold": 0.5476,
+          "tpr_answerable_kept": 0.88,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.94
+        },
+        {
+          "threshold": 0.5682,
+          "tpr_answerable_kept": 0.84,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.92
+        },
+        {
+          "threshold": 0.5918,
+          "tpr_answerable_kept": 0.8,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.9
+        },
+        {
+          "threshold": 0.6088,
+          "tpr_answerable_kept": 0.76,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.88
+        },
+        {
+          "threshold": 0.6131,
+          "tpr_answerable_kept": 0.72,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.86
+        },
+        {
+          "threshold": 0.6294,
+          "tpr_answerable_kept": 0.68,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.84
+        },
+        {
+          "threshold": 0.6474,
+          "tpr_answerable_kept": 0.64,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.82
+        },
+        {
+          "threshold": 0.6485,
+          "tpr_answerable_kept": 0.6,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.8
+        },
+        {
+          "threshold": 0.6646,
+          "tpr_answerable_kept": 0.56,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.78
+        },
+        {
+          "threshold": 0.6715,
+          "tpr_answerable_kept": 0.52,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.76
+        },
+        {
+          "threshold": 0.6727,
+          "tpr_answerable_kept": 0.48,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.74
+        },
+        {
+          "threshold": 0.6782,
+          "tpr_answerable_kept": 0.44,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.72
+        },
+        {
+          "threshold": 0.6834,
+          "tpr_answerable_kept": 0.4,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.7
+        },
+        {
+          "threshold": 0.6978,
+          "tpr_answerable_kept": 0.36,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.68
+        },
+        {
+          "threshold": 0.7058,
+          "tpr_answerable_kept": 0.32,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.66
+        },
+        {
+          "threshold": 0.7324,
+          "tpr_answerable_kept": 0.28,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.64
+        },
+        {
+          "threshold": 0.7383,
+          "tpr_answerable_kept": 0.24,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.62
+        },
+        {
+          "threshold": 0.7576,
+          "tpr_answerable_kept": 0.2,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.6
+        },
+        {
+          "threshold": 0.7578,
+          "tpr_answerable_kept": 0.16,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.58
+        },
+        {
+          "threshold": 0.7592,
+          "tpr_answerable_kept": 0.12,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.56
+        },
+        {
+          "threshold": 0.8199,
+          "tpr_answerable_kept": 0.08,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.54
+        },
+        {
+          "threshold": 0.8444,
+          "tpr_answerable_kept": 0.04,
+          "tnr_unanswerable_rejected": 1.0,
+          "balanced_accuracy": 0.52
+        }
+      ],
+      "best": {
+        "threshold": 0.5233,
+        "tpr_answerable_kept": 0.92,
+        "tnr_unanswerable_rejected": 1.0,
+        "balanced_accuracy": 0.96
+      },
+      "best_balanced": {
+        "threshold": 0.5233,
+        "tpr_answerable_kept": 0.92,
+        "tnr_unanswerable_rejected": 1.0,
+        "balanced_accuracy": 0.96
+      },
+      "no_gate": {
+        "threshold": 0.0,
+        "tpr_answerable_kept": 1.0,
+        "tnr_unanswerable_rejected": 0.0,
+        "balanced_accuracy": 0.5
+      },
+      "min_tpr": 0.9,
+      "answerable_scores": [
+        0.4966,
+        0.5162,
+        0.5233,
+        0.5476,
+        0.5682,
+        0.5918,
+        0.6088,
+        0.6131,
+        0.6294,
+        0.6474,
+        0.6485,
+        0.6646,
+        0.6715,
+        0.6727,
+        0.6782,
+        0.6834,
+        0.6978,
+        0.7058,
+        0.7324,
+        0.7383,
+        0.7576,
+        0.7578,
+        0.7592,
+        0.8199,
+        0.8444
+      ],
+      "unanswerable_scores": [
+        0.225,
+        0.4045,
+        0.4343,
+        0.4371,
+        0.5182
+      ]
+    }
+  },
+  "skipped": {}
+}

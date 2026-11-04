@@ -1,0 +1,792 @@
+[
+  {
+    "system": "no_retrieval",
+    "qid": "s02",
+    "type": "single",
+    "question": "What is the minimum subscriber and watch-hour requirement for the early-access tier of the Partner Program?",
+    "expected_key_facts": [
+      [
+        "500"
+      ],
+      [
+        "3,000",
+        "3000"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "I do not have specific information regarding the minimum subscriber and watch-hour requirements for an early-access tier of the Partner Program.",
+    "got_answerable": false,
+    "citations": [],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "no_retrieval",
+    "qid": "s03",
+    "type": "single",
+    "question": "For how long can't I post after my first Community Guidelines strike?",
+    "expected_key_facts": [
+      [
+        "1 week",
+        "one week"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "The duration of the suspension after a Community Guidelines strike can vary depending on the severity of the violation. YouTube may issue a temporary suspension, and the length of this suspension is determined by the specific guidelines that were broken. For more precise information regarding your account, you should refer to the official YouTube Creator Support resources.",
+    "got_answerable": true,
+    "citations": [],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "no_retrieval",
+    "qid": "s04",
+    "type": "single",
+    "question": "How long does a Community Guidelines strike stay on my channel?",
+    "expected_key_facts": [
+      [
+        "90 days",
+        "90-day"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "The duration of a Community Guidelines strike depends on the severity of the violation. For minor violations, the strike may be temporary, but repeated or severe violations can lead to more permanent penalties, including channel termination. YouTube's policies outline specific timelines and consequences for each type of strike.",
+    "got_answerable": true,
+    "citations": [],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "no_retrieval",
+    "qid": "s05",
+    "type": "single",
+    "question": "What happens if I get a second strike within the same 90-day period as my first one?",
+    "expected_key_facts": [
+      [
+        "2 weeks",
+        "two weeks"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "If you receive a second strike within the same 90-day period as your first strike, your channel will be terminated. YouTube's Community Guidelines strikes are cumulative, and multiple strikes within a short timeframe can lead to the most severe penalty.",
+    "got_answerable": true,
+    "citations": [],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "no_retrieval",
+    "qid": "s06",
+    "type": "single",
+    "question": "How long do I have to appeal a Community Guidelines strike?",
+    "expected_key_facts": [
+      [
+        "6 months",
+        "six months"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "I do not have specific information regarding the time limit for appealing a Community Guidelines strike.",
+    "got_answerable": false,
+    "citations": [],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "no_retrieval",
+    "qid": "s07",
+    "type": "single",
+    "question": "How long after my content was removed can I submit an appeal?",
+    "expected_key_facts": [
+      [
+        "1 year",
+        "one year",
+        "12 months"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "I do not have specific information regarding the time frame after content removal that allows for submitting an appeal.",
+    "got_answerable": false,
+    "citations": [],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "no_retrieval",
+    "qid": "s08",
+    "type": "single",
+    "question": "What is a copyright counter notification?",
+    "expected_key_facts": [
+      [
+        "reinstate"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "A copyright counter notification is a formal statement made by a user who believes their content was removed from a platform like YouTube due to a copyright claim, but that the removal was made in error. This notification asserts that the content is either covered by fair use or that the user has the right to use the material. It is a legal process designed to challenge a copyright strike or takedown notice.",
+    "got_answerable": true,
+    "citations": [],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "no_retrieval",
+    "qid": "s09",
+    "type": "single",
+    "question": "Who is supposed to submit a counter notification?",
+    "expected_key_facts": [
+      [
+        "original uploader",
+        "uploader"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "A counter notification is typically submitted by the person or entity who claims that the content was removed from YouTube due to a copyright claim, but who believes the content was removed by mistake or misidentification.",
+    "got_answerable": true,
+    "citations": [],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "no_retrieval",
+    "qid": "s10",
+    "type": "single",
+    "question": "How can a copyright strike expire?",
+    "expected_key_facts": [
+      [
+        "copyright school"
+      ],
+      [
+        "90 days"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "Copyright strikes on YouTube do not automatically expire in the same way that some other penalties might. Instead, the consequences of a copyright strike, such as video removal, are tied to the duration of the copyright claim itself. If the copyright holder withdraws the claim or the claim expires according to copyright law, the strike may be removed.",
+    "got_answerable": true,
+    "citations": [],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "no_retrieval",
+    "qid": "s11",
+    "type": "single",
+    "question": "How many copyright strikes within 90 days make a channel subject to termination?",
+    "expected_key_facts": [
+      [
+        "3",
+        "three"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "While I do not have specific, up-to-date policy documents, generally, YouTube's policies regarding copyright strikes involve a progressive system where multiple strikes within a certain timeframe can lead to channel termination. The exact number of strikes required for termination can change, so it is best to refer to the official YouTube Creator Policies for the most accurate and current information.",
+    "got_answerable": false,
+    "citations": [],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "no_retrieval",
+    "qid": "s12",
+    "type": "single",
+    "question": "Which verification do I need to complete to unlock intermediate features?",
+    "expected_key_facts": [
+      [
+        "phone"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "I do not have specific information regarding the exact verification required to unlock intermediate features on YouTube.",
+    "got_answerable": false,
+    "citations": [],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "no_retrieval",
+    "qid": "s13",
+    "type": "single",
+    "question": "How can I unlock advanced features right away?",
+    "expected_key_facts": [
+      [
+        "id",
+        "video"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "I do not have information regarding how to unlock advanced features right away, as my knowledge is limited to YouTube creator policies.",
+    "got_answerable": false,
+    "citations": [],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "no_retrieval",
+    "qid": "s16",
+    "type": "single",
+    "question": "What is the consequence of using another channel to live stream while my live streaming is restricted?",
+    "expected_key_facts": [
+      [
+        "terminat",
+        "circumvention"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "I do not have specific information regarding the consequences of using another channel to live stream when your primary channel's live streaming is restricted.",
+    "got_answerable": false,
+    "citations": [],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "no_retrieval",
+    "qid": "s17",
+    "type": "single",
+    "question": "What is required if I am under 16 and want to take part in a live stream from an adult's account?",
+    "expected_key_facts": [
+      [
+        "adult"
+      ],
+      [
+        "present"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "If you are under 16 and wish to participate in a live stream from an adult's account, you must be supervised by an adult who is logged into the account. This ensures that the activity complies with YouTube's policies regarding minors.",
+    "got_answerable": true,
+    "citations": [],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "no_retrieval",
+    "qid": "s18",
+    "type": "single",
+    "question": "Who cannot watch age-restricted videos?",
+    "expected_key_facts": [
+      [
+        "under 18"
+      ],
+      [
+        "signed out"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "Generally, individuals who are under the age of 18 are restricted from watching age-restricted videos on YouTube. Access to these videos is typically controlled by age verification systems to comply with content guidelines.",
+    "got_answerable": true,
+    "citations": [],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "no_retrieval",
+    "qid": "s19",
+    "type": "single",
+    "question": "If my channel's monetization was suspended, when can I re-apply to the Partner Program?",
+    "expected_key_facts": [
+      [
+        "90 days"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "The specific timeline for re-applying to the YouTube Partner Program after a monetization suspension depends on the reason for the suspension. You will need to review the notification you received from YouTube to understand the required steps and any waiting periods before you can appeal or reapply.",
+    "got_answerable": true,
+    "citations": [],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "no_retrieval",
+    "qid": "s20",
+    "type": "single",
+    "question": "What counts as invalid traffic?",
+    "expected_key_facts": [
+      [
+        "real user",
+        "genuine interest"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "Invalid traffic generally refers to automated or deceptive traffic that artificially inflates views, watch time, or engagement on a YouTube video. This can include bot traffic, click farms, or other methods designed to manipulate YouTube's metrics. YouTube's policies are designed to detect and remove such artificially generated activity to ensure the platform's integrity.",
+    "got_answerable": true,
+    "citations": [],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "no_retrieval",
+    "qid": "m02",
+    "type": "multi",
+    "question": "I have 420 subscribers and 2,700 qualified watch hours in the past year. How many more of each do I need for the early-access tier of the Partner Program?",
+    "expected_key_facts": [
+      [
+        "80"
+      ],
+      [
+        "300"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "I do not have specific information regarding the exact requirements for the early-access tier of the Partner Program, so I cannot tell you how many more subscribers or watch hours you need.",
+    "got_answerable": false,
+    "citations": [],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "no_retrieval",
+    "qid": "m03",
+    "type": "multi",
+    "question": "I got a Community Guidelines strike 5 months ago. Can I still appeal it, and is the strike still active?",
+    "expected_key_facts": [
+      [
+        "6 months",
+        "six months",
+        "still"
+      ],
+      [
+        "expire",
+        "90 days",
+        "no longer active",
+        "not active"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "YouTube's policies regarding strikes and appeals can change, and the specific details of your strike's status are best confirmed through your YouTube account notifications or support channels. Generally, strikes are not permanent, but the ability to appeal a past strike depends on the current guidelines and the time elapsed since the strike was issued. You should check the official YouTube Creator Support resources for the most accurate and up-to-date information regarding your specific case.",
+    "got_answerable": true,
+    "citations": [],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "no_retrieval",
+    "qid": "m05",
+    "type": "multi",
+    "question": "What can happen if my channel gets 3 strikes in the same 90 days, and can I just make a new channel afterwards?",
+    "expected_key_facts": [
+      [
+        "removed",
+        "terminat",
+        "permanent"
+      ],
+      [
+        "prohibited",
+        "cannot",
+        "can't",
+        "not allowed",
+        "may not",
+        "no"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "If your channel receives three strikes within a 90-day period, your channel will be terminated. Once a channel is terminated, you generally cannot create a new channel under the same Google Account. However, Google may allow you to create a new channel under a different Google Account, depending on the circumstances of the termination.",
+    "got_answerable": true,
+    "citations": [],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "no_retrieval",
+    "qid": "u05",
+    "type": "unanswerable",
+    "question": "How do I schedule a video premiere for a specific time in YouTube Studio?",
+    "expected_key_facts": [],
+    "answerable_expected": false,
+    "got_answer": "While I do not have access to the current interface of YouTube Studio, generally, scheduling a video premiere involves uploading your video and then selecting the 'Premiere' option during the publishing or scheduling process. You would then be prompted to select a specific date and time for the premiere to occur. Always refer to the official YouTube Creator Support documentation for the most accurate, up-to-date steps within YouTube Studio.",
+    "got_answerable": true,
+    "citations": [],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "rag_bm25",
+    "qid": "s04",
+    "type": "single",
+    "question": "How long does a Community Guidelines strike stay on my channel?",
+    "expected_key_facts": [
+      [
+        "90 days",
+        "90-day"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "You can appeal for 6 months after a warning or strike was issued [yt-185111:0005, yt-185111:0001]. The provided passages do not state how long a Community Guidelines strike remains active on a channel, only the appeal window [yt-2802032:0008].",
+    "got_answerable": false,
+    "citations": [],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "rag_bm25",
+    "qid": "s06",
+    "type": "single",
+    "question": "How long do I have to appeal a Community Guidelines strike?",
+    "expected_key_facts": [
+      [
+        "6 months",
+        "six months"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "The provided passages do not state how long a creator has to appeal a Community Guidelines strike.",
+    "got_answerable": false,
+    "citations": [],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "rag_bm25",
+    "qid": "s07",
+    "type": "single",
+    "question": "How long after my content was removed can I submit an appeal?",
+    "expected_key_facts": [
+      [
+        "1 year",
+        "one year",
+        "12 months"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "If you receive a notification that a portion of your channel may not align with YouTube’s channel monetization policies and is scheduled for suspension, you have 7 days to submit a video appeal before your channel will be suspended. If you do not submit an appeal within 7 days of the scheduled suspension notification, you can appeal the decision within 21 days or re-apply to the program 90 days after suspension. If you didn't submit an appeal before suspension, you can appeal this decision within 21 days or re-apply to the program 90 days after suspension. [yt-1727191:0005]",
+    "got_answerable": true,
+    "citations": [
+      "yt-1727191:0005"
+    ],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "rag_bm25",
+    "qid": "s08",
+    "type": "single",
+    "question": "What is a copyright counter notification?",
+    "expected_key_facts": [
+      [
+        "reinstate"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "The provided passages do not contain a definition of what a copyright counter notification is.",
+    "got_answerable": false,
+    "citations": [],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "rag_bm25",
+    "qid": "s15",
+    "type": "single",
+    "question": "Can I start a new channel after mine was terminated?",
+    "expected_key_facts": [
+      [
+        "prohibited",
+        "cannot",
+        "can't",
+        "not allowed",
+        "may not",
+        "no"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "The provided passages do not contain information about whether you can start a new channel after yours was terminated.",
+    "got_answerable": false,
+    "citations": [],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "rag_bm25",
+    "qid": "s20",
+    "type": "single",
+    "question": "What counts as invalid traffic?",
+    "expected_key_facts": [
+      [
+        "real user",
+        "genuine interest"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "The provided passages do not specify what counts as invalid traffic. They only discuss the consequences when invalid traffic is detected on a channel, such as earnings being withheld, adjusted, or offset, or temporary limitations on ad serving [yt-10285842:0004, yt-10285842:0002].",
+    "got_answerable": false,
+    "citations": [],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "rag_bm25",
+    "qid": "m03",
+    "type": "multi",
+    "question": "I got a Community Guidelines strike 5 months ago. Can I still appeal it, and is the strike still active?",
+    "expected_key_facts": [
+      [
+        "6 months",
+        "six months",
+        "still"
+      ],
+      [
+        "expire",
+        "90 days",
+        "no longer active",
+        "not active"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "You can appeal for 6 months after the warning or strike was issued [yt-185111:0005, yt-185111:0001]. Since 5 months have passed, you should still be able to appeal the strike [yt-185111:0005, yt-185111:0001]. If your channel received a strike, you can let YouTube know if you believe a mistake was made [yt-2802032:0008].",
+    "got_answerable": true,
+    "citations": [
+      "yt-185111:0005",
+      "yt-185111:0001",
+      "yt-2802032:0008"
+    ],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "rag_bm25",
+    "qid": "m04",
+    "type": "multi",
+    "question": "My Shorts got 8 million qualified views in the last 90 days and I have 1,200 subscribers. How many more qualified Shorts views do I need for the Partner Program via the Shorts route?",
+    "expected_key_facts": [
+      [
+        "10 million"
+      ],
+      [
+        "2 million",
+        "2,000,000",
+        "2m"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "Based on the current eligibility thresholds, you would need 10 million qualified Shorts views in the last 90 days to qualify for the Partner Program via the Shorts route, as you already have 1,200 subscribers [yt-72851:0003].",
+    "got_answerable": true,
+    "citations": [
+      "yt-72851:0003"
+    ],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "rag_bm25",
+    "qid": "m05",
+    "type": "multi",
+    "question": "What can happen if my channel gets 3 strikes in the same 90 days, and can I just make a new channel afterwards?",
+    "expected_key_facts": [
+      [
+        "removed",
+        "terminat",
+        "permanent"
+      ],
+      [
+        "prohibited",
+        "cannot",
+        "can't",
+        "not allowed",
+        "may not",
+        "no"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "If your channel receives 3 Community Guidelines strikes within the same 90-day period, it may result in your channel being permanently removed from YouTube [yt-2802032:0007]. For copyright strikes, channels that receive 3 copyright strikes in 90 days are subject to termination [yt-2814000:0001]. The provided passages do not state whether you can create a new channel after this happens.",
+    "got_answerable": true,
+    "citations": [
+      "yt-2802032:0007",
+      "yt-2814000:0001"
+    ],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "rag_ours",
+    "qid": "s02",
+    "type": "single",
+    "question": "What is the minimum subscriber and watch-hour requirement for the early-access tier of the Partner Program?",
+    "expected_key_facts": [
+      [
+        "500"
+      ],
+      [
+        "3,000",
+        "3000"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "I could not find this in the YouTube Help articles I can search.",
+    "got_answerable": false,
+    "citations": [],
+    "stop_reason": "below_min_score",
+    "error": ""
+  },
+  {
+    "system": "rag_ours",
+    "qid": "s05",
+    "type": "single",
+    "question": "What happens if I get a second strike within the same 90-day period as my first one?",
+    "expected_key_facts": [
+      [
+        "2 weeks",
+        "two weeks"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "If you receive a second strike within the same 90-day period as your first strike, you will be unable to post content—including videos, live streams, stories, custom thumbnails, or posts—for two additional weeks [yt-12950271:0002]. If there are no further issues after this two-week period, your full privileges will be automatically restored [yt-2802032:0006].",
+    "got_answerable": true,
+    "citations": [
+      "yt-12950271:0002",
+      "yt-2802032:0006"
+    ],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "rag_ours",
+    "qid": "m02",
+    "type": "multi",
+    "question": "I have 420 subscribers and 2,700 qualified watch hours in the past year. How many more of each do I need for the early-access tier of the Partner Program?",
+    "expected_key_facts": [
+      [
+        "80"
+      ],
+      [
+        "300"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "I could not find this in the YouTube Help articles I can search.",
+    "got_answerable": false,
+    "citations": [],
+    "stop_reason": "below_min_score",
+    "error": ""
+  },
+  {
+    "system": "rag_ours",
+    "qid": "m03",
+    "type": "multi",
+    "question": "I got a Community Guidelines strike 5 months ago. Can I still appeal it, and is the strike still active?",
+    "expected_key_facts": [
+      [
+        "6 months",
+        "six months",
+        "still"
+      ],
+      [
+        "expire",
+        "90 days",
+        "no longer active",
+        "not active"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "You can appeal for 6 months after the warning or strike was issued [yt-185111:0001]. Since 5 months have passed, you should still be able to appeal. If your appeal is rejected, the strike will remain, and the video will stay down from the site [yt-185111:0007].",
+    "got_answerable": true,
+    "citations": [
+      "yt-185111:0001",
+      "yt-185111:0007"
+    ],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "rag_ours",
+    "qid": "m05",
+    "type": "multi",
+    "question": "What can happen if my channel gets 3 strikes in the same 90 days, and can I just make a new channel afterwards?",
+    "expected_key_facts": [
+      [
+        "removed",
+        "terminat",
+        "permanent"
+      ],
+      [
+        "prohibited",
+        "cannot",
+        "can't",
+        "not allowed",
+        "may not",
+        "no"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "If your channel receives 3 strikes within the same 90-day period, it may be terminated or permanently removed from YouTube [yt-10834785:0006, yt-9713446:0005, yt-2802032:0007]. The provided passages do not state whether you can create a new channel afterward [yt-10834785:0006, yt-9713446:0005, yt-2802032:0007].",
+    "got_answerable": true,
+    "citations": [
+      "yt-10834785:0006",
+      "yt-9713446:0005",
+      "yt-2802032:0007"
+    ],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "agent",
+    "qid": "s02",
+    "type": "single",
+    "question": "What is the minimum subscriber and watch-hour requirement for the early-access tier of the Partner Program?",
+    "expected_key_facts": [
+      [
+        "500"
+      ],
+      [
+        "3,000",
+        "3000"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "The provided YouTube Help articles do not specify the minimum subscriber and watch-hour requirements for the early-access tier of the Partner Program.",
+    "got_answerable": false,
+    "citations": [],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "agent",
+    "qid": "m02",
+    "type": "multi",
+    "question": "I have 420 subscribers and 2,700 qualified watch hours in the past year. How many more of each do I need for the early-access tier of the Partner Program?",
+    "expected_key_facts": [
+      [
+        "80"
+      ],
+      [
+        "300"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "The provided YouTube Help articles do not contain the specific requirements for the early-access tier of the Partner Program, so I cannot tell you how many more subscribers or watch hours you need.",
+    "got_answerable": false,
+    "citations": [],
+    "stop_reason": "final",
+    "error": ""
+  },
+  {
+    "system": "agent",
+    "qid": "m05",
+    "type": "multi",
+    "question": "What can happen if my channel gets 3 strikes in the same 90 days, and can I just make a new channel afterwards?",
+    "expected_key_facts": [
+      [
+        "removed",
+        "terminat",
+        "permanent"
+      ],
+      [
+        "prohibited",
+        "cannot",
+        "can't",
+        "not allowed",
+        "may not",
+        "no"
+      ]
+    ],
+    "answerable_expected": true,
+    "got_answer": "If you receive 3 strikes within 90 days, your channel may be terminated. The articles mention that for repeated violations of the Community Guidelines or Terms of Service, YouTube may terminate your channel or account. However, the provided articles do not state whether you can create a new channel afterward.",
+    "got_answerable": true,
+    "citations": [
+      "yt-2801973:0004",
+      "yt-9713446:0006",
+      "yt-10834785:0006",
+      "yt-3399767:0007",
+      "yt-2802008:0013"
+    ],
+    "stop_reason": "final",
+    "error": ""
+  }
+]
